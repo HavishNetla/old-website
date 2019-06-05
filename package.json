@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-fade-in": "^0.1.6",
+    "react-grid-system": "^4.4.6",
+    "reactstrap": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lemon": "^0.3.1"
+  }
+}

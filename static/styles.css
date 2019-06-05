@@ -1,0 +1,14 @@
+.far, .fab {
+    padding: 0px 10px 0px 10px;
+}
+
+.sLink {
+    text-decoration: none;
+    color: #000000;
+}
+table, th, td {
+  border: 1px solid black;
+}
+h2 {
+    color: gray
+}
