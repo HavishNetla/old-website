@@ -8,6 +8,7 @@ const Layout = ({ children }) => (
       <script src="https://kit.fontawesome.com/e641e1045a.js" />
 
       <link rel="stylesheet" type="text/css" href="/static/styles.css" />
+      <title>Havish Netla</title>
     </Head>
     <style jsx global>
       {`
