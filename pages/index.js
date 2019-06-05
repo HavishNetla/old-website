@@ -1,5 +1,4 @@
 import FadeIn from 'react-fade-in'
-import { Container, Row, Col } from 'react-grid-system'
 import Layout from '../components/Layout'
 import Skill from '../components/Skill'
 
@@ -64,34 +63,16 @@ export default function Index() {
 
       <div style={{ marginTop: '60px' }} className="technical">
         <h1>Technical Skills</h1>
-        <Container>
-          <Row>
-            <Col md={1.5}>
-              <Skill skill="Javascript" />
-            </Col>
-            <Col md={1.5}>
-              <Skill skill="Java" />
-            </Col>
-            <Col md={1.5}>
-              <Skill skill="Python" />
-            </Col>
-            <Col md={1.5}>
-              <Skill skill="Kotlin" />
-            </Col>
-            <Col md={1.5}>
-              <Skill skill="React" />
-            </Col>
-            <Col md={1.5}>
-              <Skill skill="Express" />
-            </Col>
-            <Col md={1.5}>
-              <Skill skill="OpenCV" />
-            </Col>
-            <Col md={1.5}>
-              <Skill skill="Robotics" />
-            </Col>
-          </Row>
-        </Container>
+        <div className="skills" style={{ display: 'flex' }}>
+          <Skill skill="Javascript" />
+          <Skill skill="Java" />
+          <Skill skill="Python" />
+          <Skill skill="Kotlin" />
+          <Skill skill="React" />
+          <Skill skill="Express" />
+          <Skill skill="OpenCV" />
+          <Skill skill="Robotics" />
+        </div>
       </div>
 
       <div style={{ marginTop: '100px' }} className="projects">
