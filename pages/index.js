@@ -58,7 +58,7 @@ export default function Index() {
         <p>
           Hello, my name is Havish Netla. I am currently a freshman in
           highschool. I specialize in frontend and backend development, image
-          proccesing, and robotics.
+          processing, and robotics.
         </p>
       </div>
 
