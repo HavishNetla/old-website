@@ -94,10 +94,7 @@ class Layout extends React.Component {
             }
           `}
         </style>
-        <DarkToggle
-          onClick={this.setTheme}
-          activeTheme={this.state.activeTheme}
-        />
+       
 
         <div>{children}</div>
       </div>
