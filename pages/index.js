@@ -1,6 +1,7 @@
 import FadeIn from 'react-fade-in'
 import Layout from '../components/Layout'
 import Skill from '../components/Skill'
+import DarkToggle from '../components/DarkToggle'
 
 export default function Index() {
   return (
@@ -10,13 +11,10 @@ export default function Index() {
       >
         <FadeIn>
           <img
-            style={{
-              borderRadius: '50%',
-              height: '200px',
-              boxShadow: '0px 24px 50px -15px rgba(0, 0, 0, 0.6)',
-            }}
+            style={{}}
             src="/static/profile.jpg"
             alt="profile"
+            className="profile"
           />
           <h1>Havish Netla</h1>
           <h6>
