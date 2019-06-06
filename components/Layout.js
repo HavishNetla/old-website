@@ -85,6 +85,7 @@ class Layout extends React.Component {
 
             i {
               color: ${theme.fontColor};
+              padding: 0px 10px 0px 10px;
             }
             .profile {
               border-radius: 50%;
