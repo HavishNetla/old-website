@@ -11,7 +11,9 @@ export default function Index() {
       >
         <FadeIn>
           <img
-            style={{}}
+            style={{
+              transition: 'transform .2s',
+            }}
             src="/static/profile.jpg"
             alt="profile"
             className="profile"
@@ -61,15 +63,33 @@ export default function Index() {
 
       <div style={{ marginTop: '60px' }} className="technical">
         <h1>Technical Skills</h1>
-        <div className="skills" style={{ display: 'flex' }}>
-          <Skill skill="Javascript" />
-          <Skill skill="Java" />
-          <Skill skill="Python" />
-          <Skill skill="Kotlin" />
-          <Skill skill="React" />
-          <Skill skill="Express" />
-          <Skill skill="OpenCV" />
-          <Skill skill="Robotics" />
+        <div
+          className="skills"
+          style={{
+            flexWrap: 'wrap',
+            textAlign: 'center',
+          }}
+        >
+          <Skill
+            skill="javascript"
+            color="#f7df1e"
+            url="/static/javascript.png"
+          />
+          <Skill skill="java" color="#00768f" url="/static/java.jpg" />
+          <Skill skill="python" />
+          <Skill skill="kotlin" />
+        </div>
+        <div
+          className="skills"
+          style={{
+            flexWrap: 'wrap',
+            textAlign: 'center',
+          }}
+        >
+          <Skill skill="react" />
+          <Skill skill="express" />
+          <Skill skill="openCV" />
+          <Skill skill="robotics" />
         </div>
       </div>
 

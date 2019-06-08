@@ -45,19 +45,39 @@ class Layout extends React.Component {
 
         <style jsx global>
           {`
+            .skill {
+              width: 50px;
+              height: 50px;
+              margin: 10px 10px 0px 0px;
+            }
             @media (min-width: 576px) {
               body {
                 max-width: 540px;
+              }
+              .skill {
+                width: 97.5px;
+                height: 97.5px;
+                margin: 19.5px 19.5px 0px 0px;
               }
             }
             @media (min-width: 768px) {
               body {
                 max-width: 720px;
               }
+              .skill {
+                width: 120px;
+                height: 120px;
+                margin: 30px 30px 0px 0px;
+              }
             }
             @media (min-width: 992px) {
               body {
                 max-width: 960px;
+              }
+              .skill {
+                width: 150px;
+                height: 150px;
+                margin: 30px 30px 0px 0px;
               }
             }
 
@@ -94,7 +114,6 @@ class Layout extends React.Component {
             }
           `}
         </style>
-       
 
         <div>{children}</div>
       </div>

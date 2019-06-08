@@ -6,8 +6,3 @@
 h2 {
     color: gray
 }
-@media (max-width: 1200px){
-    .skills {
-        flex-direction: column;
-    }
-}
