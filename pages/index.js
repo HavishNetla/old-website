@@ -106,6 +106,7 @@ export default function Index() {
           style={{ width: '100%' }}
           src="/static/GroupNews451Combined.png"
           alt="News 451"
+          className="projectPic"
         />
 
         <h2 style={{ fontSize: '40px' }}>Rocket Launch App</h2>
@@ -118,6 +119,7 @@ export default function Index() {
           style={{ width: '100%' }}
           src="/static/RocketLaunch.png"
           alt="News 451"
+          className="projectPic"
         />
       </div>
     </Layout>
