@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import FadeIn from 'react-fade-in'
 import DarkToggle from './DarkToggle'
 
 const themes = {
@@ -40,6 +41,7 @@ class Layout extends React.Component {
           <script src="https://kit.fontawesome.com/e641e1045a.js" />
 
           <link rel="stylesheet" type="text/css" href="/static/styles.css" />
+          <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
           <title>Havish Netla</title>
         </Head>
 
@@ -94,8 +96,6 @@ class Layout extends React.Component {
             }
           `}
         </style>
-       
-
         <div>{children}</div>
       </div>
     )
