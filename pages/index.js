@@ -22,6 +22,7 @@ export default function Index() {
               className="sLink"
               href="mailto:netlahavish@gmail.com"
               aria-label="email"
+              rel="noopener noreferrer"
               target="_blank"
             >
               <i style={{ fontSize: '24px' }} className="far fa-envelope" />
@@ -30,6 +31,7 @@ export default function Index() {
               className="sLink"
               href="https://facebook.com/havish10"
               aria-label="facebook"
+              rel="noopener noreferrer"
               target="_blank"
             >
               <i style={{ fontSize: '24px' }} className="fab fa-facebook-f" />
@@ -38,6 +40,7 @@ export default function Index() {
               className="sLink"
               href="https://twitter.com/netlahavish"
               aria-label="twitter"
+              rel="noopener noreferrer"
               target="_blank"
             >
               <i style={{ fontSize: '24px' }} className="fab fa-twitter" />
@@ -46,6 +49,7 @@ export default function Index() {
               className="sLink"
               href="https://github.com/havish10"
               aria-label="github"
+              rel="noopener noreferrer"
               target="_blank"
             >
               <i style={{ fontSize: '24px' }} className="fab fa-github" />
