@@ -41,7 +41,10 @@ class Layout extends React.Component {
           <script src="https://kit.fontawesome.com/e641e1045a.js" />
 
           <link rel="stylesheet" type="text/css" href="/static/styles.css" />
-          <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+          <link
+            href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+            rel="stylesheet"
+          />
           <title>Havish Netla</title>
         </Head>
 
