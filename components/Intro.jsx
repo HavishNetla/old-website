@@ -2,7 +2,7 @@ export default function Index() {
   return (
     <div className="container">
       <h1>
-        I am Havish Netla, currently a sophomore in highschool I specialize in
+        I am Havish Netla, currently a sophomore in high school, I specialize in
         machine learning, frontend and backend development, image processing,
         and robotics.
       </h1>

@@ -12,8 +12,8 @@ export default function Index() {
       </p>
       <p>
         News 451 is a minimalistic web application that allows users to see the
-        recent news without clutter or ads. Users can gauge realiability and
-        bias of their news using a custom trained machine learning model.
+        recent news without clutter or ads. Users can gauge reliability and bias
+        of their news using a custom trained machine learning model.
       </p>
 
       <h3>Technologies Used</h3>
@@ -28,12 +28,12 @@ export default function Index() {
       <h3>Features</h3>
       <ol>
         <li>
-          Custom Algorithm that returns a realiability rating based on the news
+          Custom Algorithm that returns a reliability rating based on the news
           article
         </li>
         <li>Easy to use, interactive UI</li>
         <li>
-          Removes all ads and cluter from your reading expierance so you don't
+          Removes all ads and clutter from your reading experience so you don't
           have to see{' '}
           <a
             target="blank"
@@ -43,7 +43,7 @@ export default function Index() {
           </a>
         </li>
         <li>
-          Innovative two tier architecture that bridges the gap between a
+          Innovative two-tier architecture that bridges the gap between a
           javascript frontend and a python backend
         </li>
       </ol>

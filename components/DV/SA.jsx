@@ -26,12 +26,12 @@ export default function Index() {
       <h3>Features</h3>
       <ol>
         <li>
-          Custom Algorithm that returns a recomended launch that takes into
+          Custom Algorithm that returns a recommended launch that takes into
           consideration distance and time
         </li>
         <li>Easy to use, interactive UI</li>
         <li>
-          Real Time weather conditions of the launch date as well as hospitality
+          Real-Time weather conditions of the launch date as well as hospitality
           locations near the launch
         </li>
       </ol>

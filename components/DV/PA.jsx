@@ -34,9 +34,9 @@ export default function Index() {
         <li>
           Custom machine learning model which detects everyday common objects
         </li>
-        <li>Binarual audio which lets the user &quot;see&quot; with sound</li>
+        <li>Binaural audio which lets the user &quot;see&quot; with sound</li>
         <li>Custom filtration algorithm which filters out certain objects</li>
-        <li>Simple easy to use interface for the visualy impaired</li>
+        <li>Simple easy to use interface for the visually impaired</li>
       </ol>
       <img src="/static/betterInsight.png" alt="" />
       <style jsx>{`
