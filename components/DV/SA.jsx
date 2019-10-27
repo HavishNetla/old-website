@@ -1,15 +1,24 @@
-import Medal from '../Medal'
+import Award from '../Award'
 
 export default function Index() {
   return (
     <div style={{ borderBottom: '1px solid #EAEAEA;' }}>
       <h2>Rocket Launch App</h2>
       <p className="date">October 2018</p>
-      <p>
-        <Medal /> 2nd Place
-        <span className="orange">Space Apps Baltimore</span>{' '}
-        <span className="blue">Global Nominee</span>
-      </p>
+      <Award
+        description="2nd Place"
+        award={[
+          {
+            text: 'Space Apps Baltimore',
+            color: 'orange',
+          },
+          {
+            text: 'Global Nominee',
+            color: 'blue',
+          },
+        ]}
+      />
+
       <p>
         Rocket Launch is an intuitive web application that allows the user plan
         seeing rocket launches. The software displays future rocket launch data,
@@ -67,7 +76,7 @@ export default function Index() {
           background-color: aqua;
           border-radius: 5px;
           padding: 0px 5px 2px 5px;
-          margin: 0px 5px;
+          margin: 5px 5px;
         }
         hr {
           border-width: 1px 0px 0px 0px;
@@ -78,6 +87,12 @@ export default function Index() {
         }
         img:hover {
           transform: scale(1.01);
+        }
+        .award {
+          display: inline-flex;
+          align-items: center;
+          flex-wrap: wrap;
+          margin: 0px;
         }
       `}</style>
     </div>

@@ -1,6 +1,7 @@
 import SA from './SA'
 import BS from './BS'
 import PA from './PA'
+import SA2 from './SA2'
 
 export default function Index() {
   return (
@@ -18,6 +19,7 @@ export default function Index() {
       </p>
 
       <hr />
+      <SA2 />
       <PA />
       <BS />
       <SA />

@@ -1,15 +1,23 @@
-import Medal from '../Medal'
+import Award from '../Award'
 
 export default function Index() {
   return (
     <div style={{ borderBottom: '1px solid #EAEAEA;' }}>
       <h2>News 451</h2>
       <p className="date">March 2019</p>
-      <p>
-        <Medal /> 1st Place
-        <span className="orange">6th Baltimore Hackathon</span>{' '}
-        <span className="lime">Civic Track</span>
-      </p>
+      <Award
+        description="1st Place"
+        award={[
+          {
+            text: '6th Baltimore Hackathon',
+            color: 'orange',
+          },
+          {
+            text: 'Civic Track',
+            color: 'green',
+          },
+        ]}
+      />
       <p>
         News 451 is a minimalistic web application that allows users to see the
         recent news without clutter or ads. Users can gauge reliability and bias
@@ -73,13 +81,13 @@ export default function Index() {
           background-color: orange;
           border-radius: 5px;
           padding: 0px 5px 2px 5px;
-          margin: 0px 5px;
+          margin: 5px 5px;
         }
         .lime {
           background-color: lime;
           border-radius: 5px;
           padding: 0px 5px 2px 5px;
-          margin: 0px 5px;
+          margin: 5px 5px;
         }
         hr {
           border-width: 1px 0px 0px 0px;
@@ -90,6 +98,12 @@ export default function Index() {
         }
         img:hover {
           transform: scale(1.01);
+        }
+        .award {
+          display: inline-flex;
+          align-items: center;
+          flex-wrap: wrap;
+          margin: 0px;
         }
       `}</style>
     </div>

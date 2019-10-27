@@ -1,19 +1,28 @@
-import Medal from '../Medal'
+import Award from '../Award'
 
 export default function Index() {
   return (
     <div style={{ borderBottom: '1px solid #EAEAEA;' }}>
       <h2>InsightAI</h2>
       <p className="date">September 2019</p>
-      <p>
-        <Medal /> Top 10 out of 240 college level teams at the worlds largest
-        hackathon
-        <span className="orange">PennApps 2019</span>{' '}
-      </p>
-      <p>
-        <Medal /> Best hack that helped the community
-        <span className="orange">CBRE</span>{' '}
-      </p>
+      <Award
+        description="Top 10 out of 240 college level teams"
+        award={[
+          {
+            text: 'PennApps 2019',
+            color: 'orange',
+          },
+        ]}
+      />
+      <Award
+        description="Best hack that helped the community"
+        award={[
+          {
+            text: 'CBRE',
+            color: 'orange',
+          },
+        ]}
+      />
       <p>
         Deep learning live object and depth recognition with binaural AR audio
         spatialization and text-to-speech to help the visually impaired see the
@@ -64,13 +73,13 @@ export default function Index() {
           background-color: orange;
           border-radius: 5px;
           padding: 0px 5px 2px 5px;
-          margin: 0px 5px;
+          margin: 5px 5px;
         }
         .blue {
           background-color: aqua;
           border-radius: 5px;
           padding: 0px 5px 2px 5px;
-          margin: 0px 5px;
+          margin: 5px 5px;
         }
         hr {
           border-width: 1px 0px 0px 0px;
@@ -81,6 +90,12 @@ export default function Index() {
         }
         img:hover {
           transform: scale(1.01);
+        }
+        .award {
+          display: inline-flex;
+          align-items: center;
+          flex-wrap: wrap;
+          margin: 0px;
         }
       `}</style>
     </div>
