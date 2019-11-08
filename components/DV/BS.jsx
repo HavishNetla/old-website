@@ -55,7 +55,7 @@ export default function Index() {
           javascript frontend and a python backend
         </li>
       </ol>
-      <img src="/static/GroupNews451Combined.png" alt="" />
+      <img src="/static/News451.png" alt="" />
       <style jsx>{`
         .container {
           padding-top: 200px;
@@ -104,6 +104,9 @@ export default function Index() {
           align-items: center;
           flex-wrap: wrap;
           margin: 0px;
+        }
+        img {
+          margin: 15px;
         }
       `}</style>
     </div>

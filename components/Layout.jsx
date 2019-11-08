@@ -1,30 +1,6 @@
 import Head from 'next/head'
 
 export default class extends React.Component {
-  state = {
-    scrollPos: null,
-  }
-
-  componentDidMount() {
-    window.addEventListener('scroll', this.scrollListener)
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.scrollListener)
-  }
-
-  scrollListener = () => {
-    this.setState({
-      scrollPos: window.pageYOffset,
-    })
-
-    if (this.state.scrollPos > 600) {
-      document.body.style = 'background: white; color: black;'
-    } else {
-      document.body.style = 'background: black; color: white;'
-    }
-  }
-
   render() {
     const { children } = this.props
 
@@ -38,6 +14,11 @@ export default class extends React.Component {
           <script
             src="https://kit.fontawesome.com/e641e1045a.js"
             crossOrigin="anonymous"
+          />
+
+          <link
+            href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+            rel="stylesheet"
           />
 
           <title>Havish Netla</title>

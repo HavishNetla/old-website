@@ -94,6 +94,9 @@ export default function Index() {
           flex-wrap: wrap;
           margin: 0px;
         }
+        img {
+          margin: 15px;
+        }
       `}</style>
     </div>
   )

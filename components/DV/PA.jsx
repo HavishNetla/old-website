@@ -47,7 +47,7 @@ export default function Index() {
         <li>Custom filtration algorithm which filters out certain objects</li>
         <li>Simple easy to use interface for the visually impaired</li>
       </ol>
-      <img src="/static/betterInsight.png" alt="" />
+      <img src="/static/InsightAI.png" alt="" />
       <style jsx>{`
         .container {
           padding-top: 200px;
@@ -96,6 +96,9 @@ export default function Index() {
           align-items: center;
           flex-wrap: wrap;
           margin: 0px;
+        }
+        img {
+          margin: 15px;
         }
       `}</style>
     </div>

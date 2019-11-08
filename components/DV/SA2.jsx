@@ -41,7 +41,7 @@ export default function Index() {
         there is a high risk of a wildfire.
       </p>
 
-      <img src="/static/inferno.png" alt="" />
+      <img src="/static/InfernoAI.png" alt="" />
       <style jsx>{`
         .container {
           margin-bottom: 100px;
@@ -74,6 +74,9 @@ export default function Index() {
         }
         .child {
           display: inline-block;
+        }
+        img {
+          margin: 15px;
         }
       `}</style>
     </div>
