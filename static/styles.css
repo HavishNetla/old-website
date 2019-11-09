@@ -17,3 +17,9 @@ body {
   background: white;
   color: black;
 }
+.skillz {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}

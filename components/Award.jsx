@@ -1,6 +1,6 @@
 export default props => (
   <>
-    <p className="container1" style={{ marginBottom: '0px' }}>
+    <div className="container1" style={{ marginBottom: '0px' }}>
       <img src="/static/medal.svg" alt="Medal" /> <br />
       {props.description}
       <br />
@@ -10,7 +10,7 @@ export default props => (
           <br />
         </div>
       ))}
-    </p>
+    </div>
     <style jsx>{`
       @media only screen and (max-width: 480px) {
         .container1 {
@@ -46,6 +46,9 @@ export default props => (
       }
       .green {
         background-color: lime;
+      }
+      .container1 {
+        margin-top: 5px;
       }
     `}</style>
   </>
