@@ -3,7 +3,7 @@ import Skill from '../Skill'
 
 export default function Index() {
   return (
-    <div style={{ borderBottom: '1px solid #EAEAEA;' }}>
+    <div style={{ borderBottom: '1px solid #EAEAEA' }}>
       <h2>News 451</h2>
       <p className="date">March 2019</p>
       <Award
@@ -24,7 +24,7 @@ export default function Index() {
         recent news without clutter or ads. Users can gauge reliability and bias
         of their news using a custom trained machine learning model.
       </p>
-      <div className="skills">
+      <div className="skillz">
         <Skill small color="#f0d91d" skill="Javascript" />
         <Skill small color="#6ea260" skill="Node.js" />
         <Skill small color="#356f9f" skill="Python" />
@@ -86,12 +86,6 @@ export default function Index() {
         }
         img {
           margin: 15px;
-        }
-        .skills {
-          display: flex;
-          flex-wrap: wrap;
-          align-items: center;
-          justify-content: center;
         }
       `}</style>
     </div>

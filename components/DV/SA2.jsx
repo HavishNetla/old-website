@@ -3,7 +3,7 @@ import Skill from '../Skill'
 
 export default function Index() {
   return (
-    <div className="container" style={{ borderBottom: '1px solid #EAEAEA;' }}>
+    <div className="container" style={{ borderBottom: '1px solid #EAEAEA' }}>
       <h2>Inferno AI</h2>
       <p className="date">October 2019</p>
       <Award
@@ -41,7 +41,7 @@ export default function Index() {
         there is a high risk of a wildfire.
       </p>
 
-      <div className="skills">
+      <div className="skillz">
         <Skill small color="#f0d91d" skill="Javascript" />
         <Skill small color="#6ea260" skill="Node.js" />
         <Skill small color="#356f9f" skill="Python" />
@@ -57,7 +57,6 @@ export default function Index() {
       <img src="/static/InfernoAI.png" alt="" />
       <style jsx>{`
         .container {
-          margin-bottom: 100px;
           max-width: 900px;
         }
         h1 {
@@ -90,12 +89,6 @@ export default function Index() {
         }
         img {
           margin: 15px;
-        }
-        .skills {
-          display: flex;
-          flex-wrap: wrap;
-          align-items: center;
-          justify-content: center;
         }
       `}</style>
     </div>

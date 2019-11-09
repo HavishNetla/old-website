@@ -3,7 +3,7 @@ import Skill from './Skill'
 export default () => (
   <div className="container">
     <h1>Technical Skills</h1>
-    <div className="skills" style={{ display: 'flex', flexWrap: 'wrap' }}>
+    <div className="skills">
       <Skill color="#f0d91d" skill="Javascript" />
       <Skill color="#6ea260" skill="Node.js" />
       <Skill color="#f89917" skill="Java" />
@@ -22,6 +22,12 @@ export default () => (
 
     <style jsx>
       {`
+        @media only screen and (min-width: 480px) {
+          .skills {
+            display: flex;
+            flex-wrap: wrap;
+          }
+        }
         h1 {
           font-size: 50px;
           margin-bottom: 10px;
@@ -30,6 +36,10 @@ export default () => (
           padding-top: 300px;
           margin: auto;
           max-width: 900px;
+        }
+        .skills {
+          display: block;
+          flex-wrap: nowrap;
         }
       `}
     </style>

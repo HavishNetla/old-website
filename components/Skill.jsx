@@ -1,8 +1,6 @@
 const Layout = props => (
   <div>
-    <p>
-      <p>{props.skill}</p>
-    </p>
+    <p>{props.skill}</p>
 
     <style jsx>{`
       div {
