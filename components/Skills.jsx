@@ -22,6 +22,12 @@ export default () => (
 
     <style jsx>
       {`
+        @media only screen and (max-width: 480px) {
+          .skills {
+            display: block;
+            flex-wrap: nowrap;
+          }
+        }
         @media only screen and (min-width: 480px) {
           .skills {
             display: flex;
@@ -36,10 +42,6 @@ export default () => (
           padding-top: 300px;
           margin: auto;
           max-width: 900px;
-        }
-        .skills {
-          display: block;
-          flex-wrap: nowrap;
         }
       `}
     </style>
