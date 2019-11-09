@@ -10,12 +10,13 @@ export default function Index() {
       <b>
         Oct 2018 - Present
         <br />
-        Total Winnings: $1.5K
+        Total Winnings: $3.6K
       </b>
       <p />
       <p>
-        A team of high school students based in Maryland who compete in
-        hackathons to practice our programming skills and win prizes.
+        I am the founder of a highly decorated team of high school students
+        based in Maryland who compete in programming competitions across the
+        United States to learn and spread computer science knowledge.
       </p>
 
       <hr />

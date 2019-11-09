@@ -13,10 +13,11 @@ const Layout = props => (
       }
       div:hover {
         background-color: ${props.color};
+        color: ${props.color === '#000000' ? '#ffffff' : '#000000'};
       }
       p {
-        padding: 0px 10px 0px 10px;
-        margin: 10px 0px 10px 0px;
+        padding: 0px ${props.small ? '5px' : '10px'};
+        margin: ${props.small ? '5px' : '10px'} 0px;
         text-align: center;
       }
     `}</style>

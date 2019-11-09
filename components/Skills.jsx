@@ -13,7 +13,7 @@ export default () => (
       <Skill color="#f04a00" skill="Rust" />
       <Skill color="#efb838" skill="Tensorflow" />
       <Skill color="#71b6d5" skill="Machine Learning" />
-      <Skill skill="Express" />
+      <Skill color="#000000" skill="Express" />
       <Skill color="#f80101" skill="OpenCV" />
       <Skill color="#ecc23d" skill="Robotics" />
       <Skill color="#f4d97a" skill="UI/UX" />

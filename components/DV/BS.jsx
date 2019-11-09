@@ -1,4 +1,5 @@
 import Award from '../Award'
+import Skill from '../Skill'
 
 export default function Index() {
   return (
@@ -17,44 +18,22 @@ export default function Index() {
             color: 'green',
           },
         ]}
-      />
+      />{' '}
       <p>
         News 451 is a minimalistic web application that allows users to see the
         recent news without clutter or ads. Users can gauge reliability and bias
         of their news using a custom trained machine learning model.
       </p>
-
-      <h3>Technologies Used</h3>
-      <ol>
-        <li>Javascript</li>
-        <li>Python</li>
-        <li>Tensorflow</li>
-        <li>React.js</li>
-        <li>Node.js</li>
-      </ol>
-
-      <h3>Features</h3>
-      <ol>
-        <li>
-          Custom Algorithm that returns a reliability rating based on the news
-          article
-        </li>
-        <li>Easy to use, interactive UI</li>
-        <li>
-          Removes all ads and clutter from your reading experience so you don't
-          have to see{' '}
-          <a
-            target="blank"
-            href="https://www.buzzfeednews.com/article/salvadorhernandez/trump-letter-turkey-president-dont-be-a-fool"
-          >
-            this
-          </a>
-        </li>
-        <li>
-          Innovative two-tier architecture that bridges the gap between a
-          javascript frontend and a python backend
-        </li>
-      </ol>
+      <div className="skills">
+        <Skill small color="#f0d91d" skill="Javascript" />
+        <Skill small color="#6ea260" skill="Node.js" />
+        <Skill small color="#356f9f" skill="Python" />
+        <Skill small color="#5ed4f4" skill="React" />
+        <Skill small color="#efb838" skill="Tensorflow" />
+        <Skill small color="#71b6d5" skill="Machine Learning" />
+        <Skill small color="#000000" skill="Express" />
+        <Skill small color="#f4d97a" skill="UI/UX" />
+      </div>
       <img src="/static/News451.png" alt="" />
       <style jsx>{`
         .container {
@@ -107,6 +86,12 @@ export default function Index() {
         }
         img {
           margin: 15px;
+        }
+        .skills {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
         }
       `}</style>
     </div>

@@ -1,5 +1,5 @@
-import Medal from '../Medal'
 import Award from '../Award'
+import Skill from '../Skill'
 
 export default function Index() {
   return (
@@ -41,6 +41,19 @@ export default function Index() {
         there is a high risk of a wildfire.
       </p>
 
+      <div className="skills">
+        <Skill small color="#f0d91d" skill="Javascript" />
+        <Skill small color="#6ea260" skill="Node.js" />
+        <Skill small color="#356f9f" skill="Python" />
+        <Skill small color="#5ed4f4" skill="React" />
+        <Skill small color="#efb838" skill="Tensorflow" />
+        <Skill small color="#71b6d5" skill="Machine Learning" />
+        <Skill small color="#000000" skill="Express" />
+        <Skill small color="#f80101" skill="OpenCV" />
+        <Skill small color="#f4d97a" skill="UI/UX" />
+        <Skill small color="#c5c5c5" skill="Systems Engineering" />
+      </div>
+
       <img src="/static/InfernoAI.png" alt="" />
       <style jsx>{`
         .container {
@@ -77,6 +90,12 @@ export default function Index() {
         }
         img {
           margin: 15px;
+        }
+        .skills {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
         }
       `}</style>
     </div>

@@ -1,4 +1,5 @@
 import Award from '../Award'
+import Skill from '../Skill'
 
 export default function Index() {
   return (
@@ -28,25 +29,15 @@ export default function Index() {
         spatialization and text-to-speech to help the visually impaired see the
         world with sound using only a smartphone and headphones
       </p>
-
-      <h3>Technologies Used</h3>
-      <ol>
-        <li>Javascript</li>
-        <li>Tensorflow.js</li>
-        <li>React.js</li>
-        <li>Node.js</li>
-        <li>Javascript Web Audio</li>
-      </ol>
-
-      <h3>Features</h3>
-      <ol>
-        <li>
-          Custom machine learning model which detects everyday common objects
-        </li>
-        <li>Binaural audio which lets the user &quot;see&quot; with sound</li>
-        <li>Custom filtration algorithm which filters out certain objects</li>
-        <li>Simple easy to use interface for the visually impaired</li>
-      </ol>
+      <div className="skills">
+        <Skill small color="#f0d91d" skill="Javascript" />
+        <Skill small color="#6ea260" skill="Node.js" />
+        <Skill small color="#5ed4f4" skill="React" />
+        <Skill small color="#efb838" skill="Tensorflow" />
+        <Skill small color="#71b6d5" skill="Machine Learning" />
+        <Skill small color="#000000" skill="Express" />
+        <Skill small color="#f4d97a" skill="UI/UX" />
+      </div>
       <img src="/static/InsightAI.png" alt="" />
       <style jsx>{`
         .container {
@@ -99,6 +90,12 @@ export default function Index() {
         }
         img {
           margin: 15px;
+        }
+        .skills {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
         }
       `}</style>
     </div>

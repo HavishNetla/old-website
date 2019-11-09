@@ -1,4 +1,5 @@
 import Award from '../Award'
+import Skill from '../Skill'
 
 export default function Index() {
   return (
@@ -24,26 +25,13 @@ export default function Index() {
         seeing rocket launches. The software displays future rocket launch data,
         international launch sites, and atmospheric conditions.
       </p>
-
-      <h3>Technologies Used</h3>
-      <ol>
-        <li>Javascript</li>
-        <li>React.js</li>
-        <li>Node.js</li>
-      </ol>
-
-      <h3>Features</h3>
-      <ol>
-        <li>
-          Custom Algorithm that returns a recommended launch that takes into
-          consideration distance and time
-        </li>
-        <li>Easy to use, interactive UI</li>
-        <li>
-          Real-Time weather conditions of the launch date as well as hospitality
-          locations near the launch
-        </li>
-      </ol>
+      <div className="skills">
+        <Skill small color="#f0d91d" skill="Javascript" />
+        <Skill small color="#6ea260" skill="Node.js" />
+        <Skill small color="#5ed4f4" skill="React" />
+        <Skill small color="#000000" skill="Express" />
+        <Skill small color="#f4d97a" skill="UI/UX" />
+      </div>
       <img src="/static/RocketLaunch.png" alt="" />
       <style jsx>{`
         .container {
@@ -96,6 +84,12 @@ export default function Index() {
         }
         img {
           margin: 15px;
+        }
+        .skills {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
         }
       `}</style>
     </div>
