@@ -1,32 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
 body {
-  transition: background-color 0.2s ease 0s, color 0.2s ease 0s;
+  transition: 500ms background-color 0s, color 0.2s ease 0s;
   font-family: roboto;
+  background: black;
+  color: white;
+  margin: 50px 20px 50px 20px;
 }
 
-.label {
-  font-size: 30px;
-}
-
-i {
-  padding: 0px 10px 0px 10px;
-}
-
-.profile {
-  border-radius: 50%;
-  height: 200px;
-  box-shadow: 0px 24px 50px -15px rgba(0, 0, 0, 0.6);
-}
-
-.sLink {
-  text-decoration: none;
-  color: #000000;
-}
-
-h2 {
-  color: gray;
-}
-@media (max-width: 1200px) {
-  .skills {
-    flex-direction: column;
-  }
+.changeColor {
+  background: white;
+  color: black;
 }

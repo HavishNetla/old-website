@@ -12,6 +12,6 @@
     "react-fade-in": "^0.1.6"
   },
   "devDependencies": {
-    "eslint-config-lemon": "^0.3.1"
+    "eslint-config-lemon": "^0.4.13"
   }
 }
