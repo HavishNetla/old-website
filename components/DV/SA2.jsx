@@ -36,7 +36,7 @@ export default function Index() {
 
       <p>
         Machine Learning wildfire prediction platform that leverages NASA
-        Satelite data and humidity data to predict possible future wildfires.
+        Satellite data and humidity data to predict possible future wildfires.
         The software allows users to monitor locations and alerts the user when
         there is a high risk of a wildfire.
       </p>

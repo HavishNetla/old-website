@@ -5,7 +5,7 @@ export default ({ children }) => (
     <Head>
       <meta charSet="utf-8" />
       <meta name="Main page" content="Havish's personal website" />
-      <meta name="keywords" content="Havish, Netla, Developer" />
+      <meta name="keywords" content="Havish, Netla, Developer, InfernoAI, News451, InsightAI, MRHS, Rocket Launch, Software, Highschool." />
       <meta name="description" content="Havish Netla's developer portfolio" />
       <meta name="author" content="Havish Netla" />
 
