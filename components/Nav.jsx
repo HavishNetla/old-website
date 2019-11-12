@@ -1,17 +1,18 @@
 export default props => (
   <div>
     <div className="nav-container">
-      <a target="blank" href="mailto:netlahavish@gmail.com">
+      <a target="blank" href="mailto:netlahavish@gmail.com" aria-label="Email">
         <i className="fas fa-envelope" />
       </a>
 
-      <a target="blank" href="https://github.com/havish10">
+      <a target="blank" href="https://github.com/havish10" aria-label="Github">
         <i className="fab fa-github" />
       </a>
 
       <a
         target="blank"
         href="https://www.linkedin.com/in/havish-netla-1bb534192/"
+        aria-label="Linkedin"
       >
         <i className="fab fa-linkedin-in" />
       </a>
