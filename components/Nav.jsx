@@ -38,7 +38,7 @@ export default props => (
         z-index: 999;
         width: 80px;
       }
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 800px) {
         .nav-container {
           position: relative;
           width: 100%;

@@ -13,7 +13,7 @@ export default ({ children }) => (
       <meta name="author" content="Havish Netla" />
 
       <link rel="stylesheet" type="text/css" href="/static/styles.css" />
-      <link rel="icon" type="image/png" href="/static/favicon.png" />
+      <link rel="icon" type="image/png" href="/static/rainbow_favicon.png" />
       <script
         src="https://kit.fontawesome.com/e641e1045a.js"
         crossOrigin="anonymous"
