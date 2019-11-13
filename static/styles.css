@@ -23,3 +23,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+::selection {
+  background: #ff0000; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ff0000; /* Gecko Browsers */
+}

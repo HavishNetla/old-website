@@ -5,11 +5,15 @@ export default ({ children }) => (
     <Head>
       <meta charSet="utf-8" />
       <meta name="Main page" content="Havish's personal website" />
-      <meta name="keywords" content="Havish, Netla, Developer, InfernoAI, News451, InsightAI, MRHS, Rocket Launch, Software, Highschool." />
+      <meta
+        name="keywords"
+        content="Havish, Netla, Developer, InfernoAI, News451, InsightAI, MRHS, Rocket Launch, Software, Highschool."
+      />
       <meta name="description" content="Havish Netla's developer portfolio" />
       <meta name="author" content="Havish Netla" />
 
       <link rel="stylesheet" type="text/css" href="/static/styles.css" />
+      <link rel="icon" type="image/png" href="/static/favicon.png" />
       <script
         src="https://kit.fontawesome.com/e641e1045a.js"
         crossOrigin="anonymous"

@@ -2,9 +2,9 @@ export default function Index() {
   return (
     <div className="container">
       <h1>
-        I am Havish Netla, currently a sophomore in high school, I specialize in
-        machine learning, full stack development, image processing, and
-        robotics.
+        I am Havish <span style={{ color: 'red' }}>Netla</span>, currently a
+        sophomore in high school, I specialize in machine learning, full stack
+        development, image processing, and robotics.
       </h1>
       <style jsx>
         {`
