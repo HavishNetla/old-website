@@ -19,10 +19,7 @@ export default ({ children }) => (
         crossOrigin="anonymous"
       />
 
-      <link
-        href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-        rel="stylesheet"
-      />
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet" />
 
       <title>Havish Netla</title>
     </Head>
