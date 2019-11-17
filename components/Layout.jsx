@@ -3,15 +3,6 @@ import Head from 'next/head'
 export default ({ children }) => (
   <div style={{ height: '100%' }}>
     <Head>
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-116381366-2"
-      />
-      <script>
-        window.dataLayer = window.dataLayer || []; function gtag()
-        {dataLayer.push(arguments)}
-        gtag('js', new Date()) gtag('config', 'UA-116381366-2')
-      </script>
       <meta charSet="utf-8" />
       <meta name="Main page" content="Havish's personal website" />
       <meta
