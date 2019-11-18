@@ -87,9 +87,6 @@ export default function Index() {
         .child {
           display: inline-block;
         }
-        img {
-          margin: 15px;
-        }
       `}</style>
     </div>
   )
