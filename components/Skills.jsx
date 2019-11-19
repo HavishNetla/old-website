@@ -10,6 +10,7 @@ export default () => (
       <Skill color="#356f9f" skill="Python" />
       <Skill color="#d3647e" skill="Kotlin" />
       <Skill color="#5ed4f4" skill="React" />
+      <Skill color="#5ed4f4" skill="React Native" />
       <Skill color="#f04a00" skill="Rust" />
       <Skill color="#efb838" skill="Tensorflow" />
       <Skill color="#71b6d5" skill="Machine Learning" />
@@ -18,6 +19,8 @@ export default () => (
       <Skill color="#ecc23d" skill="Robotics" />
       <Skill color="#f4d97a" skill="UI/UX" />
       <Skill color="#c5c5c5" skill="Systems Engineering" />
+      <Skill color="#eb5e30" skill="iOS Development" />
+      <Skill color="#30dd81" skill="Android Development" />
     </div>
 
     <style jsx>
