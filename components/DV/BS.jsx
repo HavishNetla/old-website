@@ -34,7 +34,7 @@ export default function Index() {
         <Skill small color="#000000" skill="Express" />
         <Skill small color="#f4d97a" skill="UI/UX" />
       </div>
-      <img src="/static/News451.png" alt="" />
+      <img className="projectImage" src="/static/News451.png" alt="" />
       <style jsx>{`
         .container {
           padding-top: 200px;

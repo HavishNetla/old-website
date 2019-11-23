@@ -23,6 +23,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-img {
+.projectImage  {
   margin-bottom: 15px;
 }

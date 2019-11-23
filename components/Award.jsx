@@ -1,6 +1,9 @@
 export default props => (
   <>
-    <div className="container1" style={{ marginBottom: '0px' }}>
+    <div
+      className="container1"
+      style={{ marginTop: '10px', marginBottom: '0px' }}
+    >
       <img src="/static/medal.svg" alt="Medal" /> <br />
       {props.description}
       <br />

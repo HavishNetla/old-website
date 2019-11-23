@@ -38,7 +38,7 @@ export default function Index() {
         <Skill small color="#000000" skill="Express" />
         <Skill small color="#f4d97a" skill="UI/UX" />
       </div>
-      <img src="/static/InsightAI.png" alt="" />
+      <img className="projectImage" src="/static/InsightAI.png" alt="" />
       <style jsx>{`
         .container {
           padding-top: 200px;

@@ -32,7 +32,7 @@ export default function Index() {
         <Skill small color="#000000" skill="Express" />
         <Skill small color="#f4d97a" skill="UI/UX" />
       </div>
-      <img src="/static/RocketLaunch.png" alt="" />
+      <img className="projectImage" src="/static/RocketLaunch.png" alt="" />
       <style jsx>{`
         .container {
           padding-top: 200px;
@@ -82,7 +82,6 @@ export default function Index() {
           flex-wrap: wrap;
           margin: 0px;
         }
-        
       `}</style>
     </div>
   )

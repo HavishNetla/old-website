@@ -54,7 +54,7 @@ export default function Index() {
         <Skill small color="#c5c5c5" skill="Systems Engineering" />
       </div>
 
-      <img src="/static/InfernoAI.png" alt="" />
+      <img className="projectImage" src="/static/InfernoAI.png" alt="" />
       <style jsx>{`
         .container {
           max-width: 900px;
