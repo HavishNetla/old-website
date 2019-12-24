@@ -9,8 +9,6 @@ export default function Index() {
       <h1>Delta V</h1>
       <b>
         Oct 2018 - Present
-        <br />
-        Total Winnings: $3.6K
       </b>
       <p />
       <p>
