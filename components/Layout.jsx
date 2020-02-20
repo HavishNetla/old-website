@@ -12,7 +12,6 @@ export default ({ children }) => (
       <meta name="description" content="Havish Netla's developer portfolio" />
       <meta name="author" content="Havish Netla" />
 
-      <link rel="stylesheet" type="text/css" href="/static/styles.css" />
       <link rel="icon" type="image/png" href="/static/rainbow_favicon.png" />
       <script
         src="https://kit.fontawesome.com/e641e1045a.js"
@@ -38,7 +37,7 @@ export default ({ children }) => (
       }
 
       body {
-        transition: 500ms background-color 0s, color 0.2s ease 0s;
+        transition: all 500ms ease;
         font-family: roboto;
         background: black;
         color: white;
