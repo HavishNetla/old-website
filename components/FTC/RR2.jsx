@@ -5,7 +5,7 @@ import Skill from '../Skill'
 import Badge from '../Badge'
 
 export default () => (
-  <Project name="Relic Recovery" date="2017-18">
+  <Project name="Rover Ruckus" date="2018-19">
     <AwardHeader />
     <Award>
       2nd Place
@@ -61,7 +61,7 @@ export default () => (
       dual chain lift that was able to score two cubes at the time, the limit
       according to the rules, and a linear slide extension for the relic. Using
       Java and advanced object oriented design we were able to control the
-      dozens of DC Motor and sensors. By the end of the season we had the best
+      dozens of DC Motors and sensors. By the end of the season we had the best
       autonomous in the World.
     </p>
     <p>
@@ -75,8 +75,8 @@ export default () => (
       <Skill small color="#f89917" skill="Java" />
       <Skill small color="#ecc23d" skill="Robotics" />
       <Skill small color="#30dd81" skill="Android Development" />
+      <Skill small color="#f80101" skill="OpenCV" />
       <Skill small color="#c5c5c5" skill="Systems Engineering" />
-      <Skill small color="#6ebf4b" skill="Vuforia" />
     </div>
 
     <img className="projectImage" src="/static/RR2.png" alt="" />

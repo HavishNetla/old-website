@@ -4,6 +4,7 @@ import PA from '../DV/PA'
 import VV from './VV'
 import RR1 from './RR1'
 import RR2 from './RR2'
+import SS from './SS'
 
 export default function Index() {
   return (
@@ -14,16 +15,17 @@ export default function Index() {
       <b>
         September 2016 - Present
         <br />
-        World Standing: 7th out of 6000+
+        World Standing: 6th out of 6800+
       </b>
       <p />
       <p>
         A team of highschoolers who participate in the FIRST Tech Challenge
-        Robotics Competition. In this team I am the Software Development Lead
+        Robotics Competition. In this team I am the Software Development Lead.
       </p>
 
       <hr />
 
+      <SS />
       <RR2 />
       <RR1 />
       <VV />

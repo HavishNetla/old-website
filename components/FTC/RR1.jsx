@@ -13,25 +13,58 @@ export default () => (
       <Badge color="aqua">Record of 8-1-0</Badge>
     </Award>
     <Award>
-      1st Place
+      2nd Place
       <Badge color="orange">Think Award</Badge>
       <Badge color="lime">Second Highest Award for documentation</Badge>
       <Badge color="aqua">World Championship</Badge>
     </Award>
+
+    <Award>
+      Semifinalist
+      <Badge color="orange">East Super Regionals</Badge>
+    </Award>
+
+    <Award>
+      3rd Place
+      <Badge color="orange">Design Award</Badge>
+      <Badge color="lime">Award for Robot Design</Badge>
+      <Badge color="aqua">East Super Regionals</Badge>
+    </Award>
+
     <Award>
       1st Place
       <Badge color="orange"> Maryland State Championship</Badge>
       <Badge color="aqua">Record of 4-1-0</Badge>
+    </Award>
+    <Award>
+      1st Place
+      <Badge color="orange">Inspire Award</Badge>
+      <Badge color="lime">Highest Award for overall performance</Badge>
+      <Badge color="aqua">Maryland State Champtionship</Badge>
+    </Award>
+    <Award>
+      2nd Place
+      <Badge color="orange">Think Award</Badge>
+      <Badge color="lime">Second Highest Award for documentation</Badge>
+      <Badge color="aqua">Maryland State Champtionship</Badge>
+    </Award>
+    <Award>
+      2nd Place
+      <Badge color="orange">Connect Award</Badge>
+      <Badge color="lime">
+        Third Highest Award for reaching out to industry profesionals
+      </Badge>
+      <Badge color="aqua">Maryland State Champtionship</Badge>
     </Award>
 
     <p>
       In Relic Recovery, the goal was to score 4in by 4in cubes into a structure
       in certain patterns, at the very end of the match the robot must pick up a
       relic and extend it 5 feet outside of the field. To do this we created a
-      dual chain lift that was able to score two cubes at the time, the limit
+      dual chain lift that was able to score two cubes at a time, the limit
       according to the rules, and a linear slide extension for the relic. Using
       Java and advanced object oriented design we were able to control the
-      dozens of DC Motor and sensors. By the end of the season we had the best
+      dozens of DC Motors and sensors. By the end of the season we had the best
       autonomous in the World.
     </p>
     <p>

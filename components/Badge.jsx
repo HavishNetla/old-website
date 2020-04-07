@@ -1,9 +1,11 @@
 export default props => (
   <div key="" style={{ display: 'inline' }}>
-    <span style={{ backgroundColor: props.color }}>{props.children}</span>
+    <span className="badge" style={{ backgroundColor: props.color }}>
+      {props.children}
+    </span>
 
     <style>{`
-    span {
+    .badge {
         display: inline-block;
         border-radius: 5px;
         padding: 3px 5px;

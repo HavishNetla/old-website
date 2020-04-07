@@ -33,7 +33,7 @@ export default () => (
       wiffle balls 4 feet into the air, and into a "vortex" structure. To do
       this we created a dual flywheel system that utilized a perfectly shaped
       arc to launch the ball 4 feet in the air. Using Java and an on board
-      android phone we controll the dozens of DC Motors and sensors on the robot
+      android phone we control the dozens of DC Motors and sensors on the robot
       to do autonomous tasks and compete in the tele-op controlled period.
     </p>
     <p>
