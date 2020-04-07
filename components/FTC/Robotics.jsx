@@ -9,7 +9,7 @@ export default function Index() {
   return (
     <div className="container">
       <h1>
-        FIRST Tech Challenge Team Cubix<sup>3</sup>
+        FIRST Tech Challenge Team #8221 Cubix<sup>3</sup>
       </h1>
       <b>
         September 2016 - Present
