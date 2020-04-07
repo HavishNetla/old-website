@@ -3,7 +3,7 @@ import Skill from './Skill'
 export default () => (
   <div className="container">
     <h1>Technical Skills</h1>
-    <div className="skills">
+    <div className="skillss">
       <Skill color="#f0d91d" skill="Javascript" />
       <Skill color="#6ea260" skill="Node.js" />
       <Skill color="#f89917" skill="Java" />
@@ -26,13 +26,13 @@ export default () => (
     <style jsx>
       {`
         @media only screen and (max-width: 480px) {
-          .skills {
+          .skillss {
             display: block;
             flex-wrap: nowrap;
           }
         }
         @media only screen and (min-width: 480px) {
-          .skills {
+          .skillss {
             display: flex;
             flex-wrap: wrap;
           }

@@ -1,12 +1,15 @@
 import SA from '../DV/SA'
 import BS from '../DV/BS'
 import PA from '../DV/PA'
+import VV from './VV'
+import RR1 from './RR1'
+import RR2 from './RR2'
 
 export default function Index() {
   return (
     <div className="container">
       <h1>
-        Cubix<sup>3</sup> Robotics
+        FIRST Tech Challenge Team Cubix<sup>3</sup>
       </h1>
       <b>
         September 2016 - Present
@@ -16,13 +19,15 @@ export default function Index() {
       <p />
       <p>
         A team of highschoolers who participate in the FIRST Tech Challenge
-        Robotics Competition. In this team I am the lead programmer
+        Robotics Competition. In this team I am the Software Development Lead
       </p>
 
       <hr />
-      <PA />
-      <BS />
-      <SA />
+
+      <RR2 />
+      <RR1 />
+      <VV />
+
       <style jsx>{`
         .container {
           padding-top: 200px;
@@ -42,18 +47,6 @@ export default function Index() {
         }
         img {
           width: 100%;
-        }
-        .orange {
-          background-color: orange;
-          border-radius: 5px;
-          padding: 0px 5px 2px 5px;
-          margin: 0px 5px;
-        }
-        .blue {
-          background-color: aqua;
-          border-radius: 5px;
-          padding: 0px 5px 2px 5px;
-          margin: 0px 5px;
         }
         hr {
           border-width: 1px 0px 0px 0px;

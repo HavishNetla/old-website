@@ -1,38 +1,25 @@
-import Award from '../Award'
+import Award from '../Award/Award'
 import Skill from '../Skill'
+import Project from './Project'
+import AwardHeader from '../Award/AwardHeader'
+import Badge from '../Badge'
 
 export default function Index() {
   return (
-    <div className="container" style={{ borderBottom: '1px solid #EAEAEA' }}>
-      <h2>Inferno AI</h2>
-      <p className="date">October 2019</p>
-      <Award
-        description="1st Place"
-        award={[
-          {
-            text: 'Space Apps 2019 Washington',
-            color: 'orange',
-          },
-        ]}
-      />
-      <Award
-        description="People's Choice Award"
-        award={[
-          {
-            text: 'Space Apps 2019 Washington',
-            color: 'orange',
-          },
-        ]}
-      />
-      <Award
-        description="Global Nominee"
-        award={[
-          {
-            text: 'Space Apps 2019',
-            color: 'orange',
-          },
-        ]}
-      />
+    <Project name="InfernoAI" date="October 2019">
+      <AwardHeader />
+      <Award>
+        1st Place
+        <Badge color="orange">Space Apps 2019 Washington</Badge>
+      </Award>
+      <Award>
+        1st Place
+        <Badge color="orange">Space Apps 2019 Washington</Badge>
+      </Award>
+      <Award>
+        Global Nominee
+        <Badge color="orange">Space Apps 2019</Badge>
+      </Award>
 
       <p>
         Machine Learning wildfire prediction platform that leverages NASA
@@ -41,7 +28,7 @@ export default function Index() {
         there is a high risk of a wildfire.
       </p>
 
-      <div className="skillz">
+      <div className="skills">
         <Skill small color="#f0d91d" skill="Javascript" />
         <Skill small color="#6ea260" skill="Node.js" />
         <Skill small color="#356f9f" skill="Python" />
@@ -55,39 +42,6 @@ export default function Index() {
       </div>
 
       <img className="projectImage" src="/static/InfernoAI.png" alt="" />
-      <style jsx>{`
-        .container {
-          max-width: 900px;
-        }
-        h1 {
-          font-size: 50px;
-          margin-bottom: 10px;
-        }
-        h2 {
-          font-size: 30px;
-          margin-bottom: 10px;
-        }
-        ol {
-          margin-top: 0px;
-        }
-        img {
-          width: 100%;
-          transition: transform 0.2s; /* Animation */
-        }
-        hr {
-          border-width: 1px 0px 0px 0px;
-        }
-        .date {
-          color: grey;
-          margin-top: 0px;
-        }
-        img:hover {
-          transform: scale(1.01);
-        }
-        .child {
-          display: inline-block;
-        }
-      `}</style>
-    </div>
+    </Project>
   )
 }

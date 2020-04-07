@@ -4,6 +4,12 @@ import Intro from '../components/Intro'
 import DeltaV from '../components/DV/DeltaV'
 import Nav from '../components/Nav'
 import Skills from '../components/Skills'
+import Award from '../components/Award/Award'
+import Badge from '../components/Badge'
+import AwardHeader from '../components/Award/AwardHeader'
+import Project from '../components/DV/Project'
+import Skill from '../components/Skill'
+import Robotics from '../components/FTC/Robotics'
 
 export default class Index extends React.Component {
   state = {
@@ -43,6 +49,7 @@ export default class Index extends React.Component {
             <Intro />
             <Skills />
             <DeltaV />
+            <Robotics />
           </div>
         </div>
         <style jsx>{`
