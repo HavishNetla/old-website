@@ -15,9 +15,9 @@ export default function Index() {
       </Award>
 
       <p>
-        News 451 is a minimalistic web application that allows users to see the
-        recent news without clutter or ads. Users can gauge reliability and bias
-        of their news using a custom trained machine learning model.
+        Rocket Launch is an intuitive web application that allows the user plan
+        seeing rocket launches. The software displays future rocket launch data,
+        international launch sites, and atmospheric conditions.
       </p>
 
       <div className="skills">
@@ -31,7 +31,7 @@ export default function Index() {
         <Skill small color="#f4d97a" skill="UI/UX" />
       </div>
 
-      <img className="projectImage" src="/static/News451.png" alt="" />
+      <img className="projectImage" src="/static/RocketLaunch.png" alt="" />
     </Project>
   )
 }

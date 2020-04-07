@@ -27,31 +27,31 @@ export default () => (
       2nd Place
       <Badge color="orange">Inspire Award</Badge>
       <Badge color="lime">Highest Award for overall performance</Badge>
-      <Badge color="aqua">Maryland State Champtionship</Badge>
+      <Badge color="aqua">Maryland State Championship</Badge>
     </Award>
     <Award>
       1st Place
       <Badge color="orange">Think Award</Badge>
       <Badge color="lime">Second Highest Award for documentation</Badge>
-      <Badge color="aqua">Maryland State Champtionship</Badge>
+      <Badge color="aqua">Maryland State Championship</Badge>
     </Award>
     <Award>
       Finalist
       <Badge color="orange">Innovate Award</Badge>
       <Badge color="lime">Award for innovation in the Robot</Badge>
-      <Badge color="aqua">Maryland State Champtionship</Badge>
+      <Badge color="aqua">Maryland State Championship</Badge>
     </Award>
     <Award>
       Finalist
       <Badge color="orange">Design Award</Badge>
       <Badge color="lime">Award for Overall Design of the Robot</Badge>
-      <Badge color="aqua">Maryland State Champtionship</Badge>
+      <Badge color="aqua">Maryland State Championship</Badge>
     </Award>
     <Award>
       Finalist
       <Badge color="orange">Control Award</Badge>
       <Badge color="lime">Award for software</Badge>
-      <Badge color="aqua">Maryland State Champtionship</Badge>
+      <Badge color="aqua">Maryland State Championship</Badge>
     </Award>
 
     <p>

@@ -28,13 +28,14 @@ export default () => (
     </Award>
 
     <p>
-      I was in 7th grade when I started the FIRST Tech Challenge, and my first
-      game was Velocity Vortex. The goal of Velocity Vortex was to shoot 3 inch
-      wiffle balls 4 feet into the air, and into a "vortex" structure. To do
-      this we created a dual flywheel system that utilized a perfectly shaped
-      arc to launch the ball 4 feet in the air. Using Java and an on board
-      android phone we control the dozens of DC Motors and sensors on the robot
-      to do autonomous tasks and compete in the tele-op controlled period.
+      I was in 7th grade when I started participating in the FIRST Tech
+      Challenge RObotics Competition, and my first game was Velocity Vortex. The
+      goal of Velocity Vortex was to shoot 3 inch wiffle balls 4 feet into the
+      air, and into a "vortex" structure. To do this we created a dual flywheel
+      system that utilized a perfectly shaped arc to launch the ball 4 feet in
+      the air. Using Java and an on board Android phone we control the dozens of
+      DC Motors and sensors on the robot to do autonomous tasks and compete in
+      the tele-op controlled period.
     </p>
     <p>
       My team had great success this year coming 2nd in both the Delaware State

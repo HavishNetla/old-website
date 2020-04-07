@@ -40,13 +40,13 @@ export default () => (
       1st Place
       <Badge color="orange">Inspire Award</Badge>
       <Badge color="lime">Highest Award for overall performance</Badge>
-      <Badge color="aqua">Maryland State Champtionship</Badge>
+      <Badge color="aqua">Maryland State Championship</Badge>
     </Award>
     <Award>
       2nd Place
       <Badge color="orange">Think Award</Badge>
       <Badge color="lime">Second Highest Award for documentation</Badge>
-      <Badge color="aqua">Maryland State Champtionship</Badge>
+      <Badge color="aqua">Maryland State Championship</Badge>
     </Award>
     <Award>
       2nd Place
@@ -54,7 +54,7 @@ export default () => (
       <Badge color="lime">
         Third Highest Award for reaching out to industry profesionals
       </Badge>
-      <Badge color="aqua">Maryland State Champtionship</Badge>
+      <Badge color="aqua">Maryland State Championship</Badge>
     </Award>
 
     <p>

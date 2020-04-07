@@ -27,25 +27,25 @@ export default () => (
       2nd Place
       <Badge color="orange">Inspire Award</Badge>
       <Badge color="lime">Highest Award for overall performance</Badge>
-      <Badge color="aqua">Maryland State Champtionship</Badge>
+      <Badge color="aqua">Maryland State Championship</Badge>
     </Award>
     <Award>
       1st Place
       <Badge color="orange">Think Award</Badge>
       <Badge color="lime">Second Highest Award for documentation</Badge>
-      <Badge color="aqua">Virginia State Champtionship</Badge>
+      <Badge color="aqua">Virginia State Championship</Badge>
     </Award>
     <Award>
       1st Place
       <Badge color="orange">Think Award</Badge>
       <Badge color="lime">Second Highest Award for documentation</Badge>
-      <Badge color="aqua">Maryland State Champtionship</Badge>
+      <Badge color="aqua">Maryland State Championship</Badge>
     </Award>
     <Award>
       Finalist
       <Badge color="orange">Design Award</Badge>
       <Badge color="lime">Award for Overall Design of the Robot</Badge>
-      <Badge color="aqua">Maryland State Champtionship</Badge>
+      <Badge color="aqua">Maryland State Championship</Badge>
     </Award>
 
     <p>
@@ -59,10 +59,10 @@ export default () => (
     </p>
 
     <p>
-      This was my first year using Kotlin and Java simulataneoulsy to program
-      the robot. Additionally this year I utilized advanced odometry and path
-      following techniques that allowed us to create one of the best
-      autonomous&apos; in the state of Maryland and Virgina.
+      This was my first year using Kotlin and Java simultaneously to program the
+      robot. Additionally this year I utilized advanced odometry and path
+      following techniques that allowed us to create one of the best autonomous
+      programs in the state of Maryland and Virgina.
     </p>
     <div style={{ display: 'flex' }}>
       <Button>
@@ -79,7 +79,7 @@ export default () => (
 
     <p>
       My team had great success this year coming 1st in the Maryland
-      Championship and 1st at the Virigina State Champtionship and advanced to
+      Championship and 1st at the Virigina State Championship and advanced to
       the World Championship in Detroit. Unfortunately the World Championship
       was canceled due to COVID-19
     </p>
