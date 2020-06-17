@@ -13,7 +13,7 @@ export default function Index() {
         <Badge color="orange">Space Apps 2019 Washington</Badge>
       </Award>
       <Award>
-        1st Place
+        Peoples Choice Award
         <Badge color="orange">Space Apps 2019 Washington</Badge>
       </Award>
       <Award>

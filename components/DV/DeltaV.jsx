@@ -3,6 +3,7 @@ import BS from './BS'
 import PA from './PA'
 import SA2 from './SA2'
 import SOS from './SOS'
+import HTHS from './HTHS'
 
 export default function Index() {
   return (
@@ -18,6 +19,7 @@ export default function Index() {
 
       <hr />
 
+      <HTHS />
       <SOS />
       <SA2 />
       <PA />
