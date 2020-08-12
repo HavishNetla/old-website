@@ -1,0 +1,7 @@
+Privacy Policy
+
+Information Collected and Use:
+No data that identifies you will be collected, no data will be sent or received via the app. The app has no in app purchases and is free to use.
+
+Log Data:
+No data is collected that can identify a user, crash data will be sent to the developer but can not identify you.
