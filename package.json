@@ -6,12 +6,14 @@
     "export": "next export"
   },
   "dependencies": {
+    "global": "^4.4.0",
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-fade-in": "^0.1.6"
+    "react-fade-in": "^0.1.6",
+    "vercel": "^20.1.2"
   },
   "devDependencies": {
-    "eslint-config-lemon": "^0.4.13"
+    "eslint-config-lemon": "^0.5.43"
   }
 }
