@@ -15,7 +15,7 @@ export default () => (
 			>
 				Havish Netla
 			</span>
-			, a junior in high school who specializes in machine learning, full stack
+			, a senior in high school who specializes in machine learning, full stack
 			development, image processing, and robotics.
 		</h1>
 		<style jsx>
